@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.*;
 import org.modelmapper.ModelMapper;
 import java.util.NoSuchElementException;
 
-@RestController
-@RequestMapping("/participations")
+@RestController // pour dire que c'est un controller
+@RequestMapping("/participations") //pour dire à quelle adresse il est sur le serveur
 public class ParticipationController {
 
     private final ParticipationProjet participationService;

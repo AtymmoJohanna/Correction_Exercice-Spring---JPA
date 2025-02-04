@@ -9,6 +9,7 @@ import java.io.Serializable;
  */
 @Data
 public class ParticipationDTO implements Serializable {
+    //les elements d'une participation qu'on doit renvoyer
     Integer id;
     String role;
     Float pourcentage;

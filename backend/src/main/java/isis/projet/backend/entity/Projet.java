@@ -22,10 +22,10 @@ public class Projet {
     @Column(nullable = false)
     private Integer id;
 
-    @NotBlank
-    @NotEmpty
+    @NotBlank //pas que des caractères blancs
+    @NotEmpty //pas vide
     @Column(nullable = false, unique = true)
-    @NonNull
+    @NonNull //pas nul
     private String nom;
 
     @Column(nullable = false)
